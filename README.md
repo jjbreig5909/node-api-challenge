@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+The main parts of Express that we learned about this week were Express routing and also using Middleware in Express.
+
 - [ ] Describe Middleware?
+
+Middleware (either built-in, third party, or custom), are functions that get executed during particular calls to the server in the order that they are introduced. We're able to use middleware to do a huge variety of things, including route HTML calls, perform operations on the request and response, and also validate data or handle authorization. 
 
 - [ ] Describe a Resource?
 
+A resource is any information/data contained within the server/database. It is typically what the client is trying to access and modify.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+A status of 200 OK indicates that the operation was successful. 
+
 - [ ] How can we partition our application into sub-applications?
+
+We can use Express router to have a single URL per resource that we want to access. It makes things less confusing for the client when accessing a particular resource, because the URL is more relevant, and also it helps the backend developer keep their code more organized and concise. 
 
 ## Minimum Viable Product
 
